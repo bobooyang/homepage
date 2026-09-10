@@ -1,0 +1,60 @@
+{
+  "source": "https://www.apple.com/105/media/us/iphone-duo/2026/9305e4b9-72d9-4c05-9381-b572adadd5e5/ar/iPhone_Duo_e-sim_Star-White_Variant.usdz",
+  "note": "Official AR geometry with authored fold and press demonstration clips. Intermediate motion is not measured mechanical data.",
+  "animations": [
+    "Fold",
+    "PressPower",
+    "PressCamera",
+    "PressVolumeUp",
+    "PressVolumeDown"
+  ],
+  "models": [
+    {
+      "file": "iphone-duo-star-white-interactive.glb",
+      "bytes": 49935244,
+      "sha256": "b1b1465d55a563cca5b5a0e0d10995b274fd8385547673176001ffca77dc81e9",
+      "wallpapers": [
+        {
+          "screen": "outer",
+          "source": "ComfyUI_00036_.png",
+          "width": 2896,
+          "height": 5792,
+          "sha256": "7f273a636a372f40ec69df252095f80bfba2a1a2853a4d9a693243122ef9a080",
+          "file": "wallpapers/default-outer.png"
+        },
+        {
+          "screen": "inner",
+          "source": "ComfyUI_00037_.png",
+          "width": 5792,
+          "height": 2896,
+          "sha256": "8ab95d2abb5d7ea1d40a841df62c4c4bfe7f2fab1c6aaba533edff93da14ce96",
+          "file": "wallpapers/default-inner.png"
+        }
+      ]
+    },
+    {
+      "file": "iphone-duo-night-sky-interactive.glb",
+      "bytes": 54688756,
+      "sha256": "e40aa706a7830cea5651a1bfb72abd9108dce6b25c8e50ee85b3c37eef687261",
+      "wallpapers": [
+        {
+          "screen": "outer",
+          "source": "ComfyUI_00034_.png",
+          "width": 2896,
+          "height": 5792,
+          "sha256": "85bfc50e611ffaa8df9087dcf5bcb31970ccf7055c4dce31e5afab55be95fc04",
+          "file": "wallpapers/night-sky-outer.png"
+        },
+        {
+          "screen": "inner",
+          "source": "ComfyUI_00035_.png",
+          "width": 5792,
+          "height": 2896,
+          "sha256": "53f91a9f139b335387d45294c52a66f98af4b1f31777c5fd9a5c36b43577f982",
+          "file": "wallpapers/night-sky-inner.png"
+        }
+      ]
+    }
+  ],
+  "wallpaperNote": "Default screen PNGs replaced with user-provided HD artwork at original resolution. Geometry, materials, UVs and animation data preserved."
+}
